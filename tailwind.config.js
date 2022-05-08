@@ -2,19 +2,13 @@ module.exports = {
   darkMode: "media",
   content: ["./src/**/*.tsx"],
   theme: {
+    fontFamily: {
+      logo: "Candal",
+    },
     extend: {
       colors: {
         primary: {
-          50: "#ffef9f",
-          100: "#ffef8f",
-          200: "#fcef6f",
-          300: "#fcea1f",
-          400: "#f6e51b",
-          500: "#f0d814",
-          600: "#e8c912",
-          700: "#e0b30c",
-          800: "#d39c0b",
-          900: "#ca7c07",
+          900: "#FE4443",
         },
         secondary: {
           50: "#fcc8cc",
