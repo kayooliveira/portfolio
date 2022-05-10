@@ -5,6 +5,7 @@ import lifevet from "./Assets/img/services/lifevet.png";
 import rangelimoveis from "./Assets/img/services/rangelimoveis.png";
 import laletra from "./Assets/img/services/laletra.png";
 import feedget from "./Assets/img/services/feedget.png";
+import calculator from "./Assets/img/services/calculator.png";
 import {
   Bookmark,
   CaretDoubleDown,
@@ -51,6 +52,15 @@ export function App() {
       },
       url: "https://life.vet.br",
       tags: "React, Typescript, Laravel...",
+    },
+    {
+      name: "Calculator",
+      img: {
+        src: calculator,
+        alt: "Calculator",
+      },
+      url: "https://www.calculator.kayooliveira.com",
+      tags: "React, Typescript, Tailwind...",
     },
   ];
 
